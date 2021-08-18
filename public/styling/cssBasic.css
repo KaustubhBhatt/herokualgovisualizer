@@ -327,7 +327,7 @@ img{
 
 #actualStartButton {
   /*color: red;*/
-  background-color: none;
+  background-color: #ff29d1;
 }
 
 #mainGrid{
@@ -5435,7 +5435,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #34495e;
+  background-color: #34495e; 
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -5470,7 +5470,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #f081e4;
+  /*color: #1abc9c;*/
   background-color: transparent;
 }
 
@@ -5484,6 +5485,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #1abc9c;
+
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -5499,7 +5501,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #1abc9c;
+  background-color: #e857eb; /*#1abc9c*/ /*navbar mein selected box ka color*/
   color: #ffffff;
   border-left-color: transparent;
 }
@@ -5525,7 +5527,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:hover,
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:focus {
   color: #ffffff;
-  background-color: #1abc9c;
+  background-color:  #e857eb; /*#1abc9c*/ /*Dropdown box mein list elements ke hover effect ka color*/
 }
 
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li.disabledA > a:hover {
@@ -5534,7 +5536,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > .divider {
-  background-color: #2f4154;
+  background-color: #e857eb; /*#2f4154*/
   height: 2px;
   margin-left: -4px;
   margin-right: -4px;
