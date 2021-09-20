@@ -73,7 +73,7 @@ function recursiveDivisionMaze(board, rowStart, rowEnd, colStart, colEnd, orient
       recursiveDivisionMaze(board, currentRow + 2, rowEnd, colStart, colEnd, "vertical", surroundingWalls, type);
     }
   }
-   else {
+   else {                       // If : Vertical Orientation
     let possibleCols = [];
     for (let number = colStart; number <= colEnd; number += 2) {
       possibleCols.push(number);
